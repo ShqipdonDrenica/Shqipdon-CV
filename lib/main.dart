@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
             child: Text('Shqipdon CV'),
           ),
         ),
-        body: InteractiveViewer(
+        body: SingleChildScrollView(
           child: Container(
             child: Wrap(
               children: [
