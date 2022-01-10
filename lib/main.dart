@@ -39,12 +39,10 @@ class MyApp extends StatelessWidget {
                 ),
                 Row(
                   children: [
-                    Expanded(
-                      child: CircleAvatar(
-                        radius: 40.0,
-                        backgroundImage: NetworkImage('https://scontent.fprn12-1.fna.fbcdn.net/v/t1.18169-9/29389442_838954849639835_5853999983548699086_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=SNdQkHAJs1cAX8jt7uy&tn=mzFc7PrMO_9ndXWH&_nc_ht=scontent.fprn12-1.fna&oh=00_AT9O9yWc7825nQ53E2luxYRGy_zYu15ZBKqlGGrPpD0iAw&oe=61FBAE09'),
-                        backgroundColor: Colors.transparent,
-                      ),
+                    CircleAvatar(
+                      radius: 40.0,
+                      backgroundImage: NetworkImage('https://scontent.fprn12-1.fna.fbcdn.net/v/t1.18169-9/29389442_838954849639835_5853999983548699086_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=SNdQkHAJs1cAX8jt7uy&tn=mzFc7PrMO_9ndXWH&_nc_ht=scontent.fprn12-1.fna&oh=00_AT9O9yWc7825nQ53E2luxYRGy_zYu15ZBKqlGGrPpD0iAw&oe=61FBAE09'),
+                      backgroundColor: Colors.transparent,
                     ),
                     Expanded(
                       child: Column(
