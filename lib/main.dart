@@ -115,29 +115,37 @@ class MyApp extends StatelessWidget {
                       children: [
                         Text(
                           'JOB APPLIED FOR',
+                          softWrap: true,
                           style: TextStyle(color: Colors.blue),
                         ),
                         Text(
                           'POSTION',
+                          softWrap: true,
                           style: TextStyle(color: Colors.blue),
                         ),
                         Text(
                           'PREFERRED JOB',
+                          softWrap: true,
                           style: TextStyle(color: Colors.blue),
                         ),
                         Text(
                           'STUDIES APPLIED FOR',
+                          softWrap: true,
                           style: TextStyle(color: Colors.blue),
                         ),
                       ],
                     ),
-                    Text('            Flutter'),
+                    Text(
+                      '            Flutter',
+                      softWrap: true,
+                    ),
                   ],
                 ),
                 Row(
                   children: [
                     Text(
                       'EDUACTION AND TRAINING   ',
+                      softWrap: true,
                       style: TextStyle(color: Colors.blue),
                     ),
                     Column(
@@ -147,36 +155,52 @@ class MyApp extends StatelessWidget {
                           children: [
                             Text(
                               'High School \“Shaqir Hoxha\”',
+                              softWrap: true,
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
-                            Text('– Shale,Lipjan.'),
+                            Text(
+                              '– Shale,Lipjan.',
+                              softWrap: true,
+                            ),
                           ],
                         ),
                         Row(
                           children: [
                             Text(
                               'Degree: ',
+                              softWrap: true,
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
-                            Text('Natural Sciences.'),
+                            Text(
+                              'Natural Sciences.',
+                              softWrap: true,
+                            ),
                           ],
                         ),
                         Row(
                           children: [
                             Text(
                               'University of Business and Technology:',
+                              softWrap: true,
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
-                            Text('– Prishtine , Kosovo.'),
+                            Text(
+                              '– Prishtine , Kosovo.',
+                              softWrap: true,
+                            ),
                           ],
                         ),
                         Row(
                           children: [
                             Text(
                               'Degree: ',
+                              softWrap: true,
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
-                            Text('Bachelor of Computer Science and Engineering'),
+                            Text(
+                              'Bachelor of Computer Science and Engineering',
+                              softWrap: true,
+                            ),
                           ],
                         ),
                       ],
