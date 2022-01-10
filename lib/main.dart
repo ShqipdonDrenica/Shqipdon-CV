@@ -51,6 +51,7 @@ class MyApp extends StatelessWidget {
                           Row(
                             children: [
                               Icon(Icons.location_on, color: Colors.blue),
+                              overflow: TextOverflow.ellipsis,
                               Text(' Street “ Haxhi Korpuzi” Shale,Lipjan –Kosovo. '),
                             ],
                           ),
