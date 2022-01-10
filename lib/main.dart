@@ -88,7 +88,10 @@ class MyApp extends StatelessWidget {
                                   '|Nationality ',
                                   style: TextStyle(color: Colors.blue),
                                 ),
-                                Text('Kosovo'),
+                                Text(
+                                  'Kosovo',
+                                  overflow: TextOverflow.ellipsis,
+                                ),
                               ],
                             ),
                           ],
