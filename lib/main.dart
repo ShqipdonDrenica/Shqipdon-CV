@@ -38,7 +38,6 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
                 Row(
-                  columns: initHeader(),
                   children: [
                     CircleAvatar(
                       radius: 40.0,
