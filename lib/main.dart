@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Text(
                       'PERSONAL iNFORMATION ',
@@ -47,49 +46,51 @@ class MyApp extends StatelessWidget {
                         backgroundColor: Colors.transparent,
                       ),
                     ),
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(
-                          children: [
-                            Icon(Icons.location_on, color: Colors.blue),
-                            Text(' Street “ Haxhi Korpuzi” Shale,Lipjan –Kosovo. '),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            Icon(Icons.phone, color: Colors.blue),
-                            Text('+38344555802     '),
-                            Icon(Icons.phone_iphone, color: Colors.blue),
-                            Text('044555802'),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            Icon(Icons.mail, color: Colors.blue),
-                            Text('shqipdondrenica@gmail.com'),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            Text(
-                              'Sex ',
-                              style: TextStyle(color: Colors.blue),
-                            ),
-                            Text('Male  '),
-                            Text(
-                              '|Date of birth ',
-                              style: TextStyle(color: Colors.blue),
-                            ),
-                            Text('26.06.2000  '),
-                            Text(
-                              '|Nationality ',
-                              style: TextStyle(color: Colors.blue),
-                            ),
-                            Text('Kosovo'),
-                          ],
-                        ),
-                      ],
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Icon(Icons.location_on, color: Colors.blue),
+                              Text(' Street “ Haxhi Korpuzi” Shale,Lipjan –Kosovo. '),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Icon(Icons.phone, color: Colors.blue),
+                              Text('+38344555802     '),
+                              Icon(Icons.phone_iphone, color: Colors.blue),
+                              Text('044555802'),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Icon(Icons.mail, color: Colors.blue),
+                              Text('shqipdondrenica@gmail.com'),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Text(
+                                'Sex ',
+                                style: TextStyle(color: Colors.blue),
+                              ),
+                              Text('Male  '),
+                              Text(
+                                '|Date of birth ',
+                                style: TextStyle(color: Colors.blue),
+                              ),
+                              Text('26.06.2000  '),
+                              Text(
+                                '|Nationality ',
+                                style: TextStyle(color: Colors.blue),
+                              ),
+                              Text('Kosovo'),
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 ),
@@ -170,7 +171,7 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
                 Text(
-                  'Personal Skills                          _____________________________________________________________',
+                  'Personal Skills                          ___________________________________________________________',
                   style: TextStyle(color: Colors.blue),
                 ),
                 Text(''),
@@ -273,4 +274,3 @@ class MyApp extends StatelessWidget {
       ),
     );
   }
-}
