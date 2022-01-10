@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Text(
                       'PERSONAL iNFORMATION ',
