@@ -46,6 +46,7 @@ class MyApp extends StatelessWidget {
                     ),
                     Expanded(
                       child: Column(
+                        mainAxisSize: MainAxisSize.min,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
