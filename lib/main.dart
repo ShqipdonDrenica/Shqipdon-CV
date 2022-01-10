@@ -76,21 +76,29 @@ class MyApp extends StatelessWidget {
                               Text(
                                 'Sex ',
                                 style: TextStyle(color: Colors.blue),
+                                softWrap: true,
                               ),
-                              Text('Male  '),
+                              Text(
+                                'Male  ',
+                                softWrap: true,
+                              ),
                               Text(
                                 '|Date of birth ',
                                 style: TextStyle(color: Colors.blue),
+                                softWrap: true,
                               ),
                               Text(
                                 '26.06.2000  ',
+                                softWrap: true,
                               ),
                               Text(
                                 '|Nationality ',
+                                softWrap: true,
                                 style: TextStyle(color: Colors.blue),
                               ),
                               Text(
                                 'Kosovo',
+                                softWrap: true,
                               ),
                             ],
                           ),
