@@ -58,7 +58,10 @@ class MyApp extends StatelessWidget {
                             Row(
                               children: [
                                 Icon(Icons.phone, color: Colors.blue),
-                                Text('+38344555802     '),
+                                Text(
+                                  '+38344555802     ',
+                                  overflow: TextOverflow.ellipsis,
+                                ),
                                 Icon(Icons.phone_iphone, color: Colors.blue),
                                 Text('044555802'),
                               ],
