@@ -45,6 +45,7 @@ class MyApp extends StatelessWidget {
                       backgroundColor: Colors.transparent,
                     ),
                     Expanded(
+                      flex: 2,
                       child: Column(
                         mainAxisSize: MainAxisSize.min,
                         crossAxisAlignment: CrossAxisAlignment.start,
