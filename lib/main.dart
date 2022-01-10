@@ -14,8 +14,6 @@ class MyApp extends StatelessWidget {
           ),
         ),
         body: InteractiveViewer(
-          columns: initHeader(),
-          rows: initRows(),
           child: Container(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -40,6 +38,7 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
                 Row(
+                  columns: initHeader(),
                   children: [
                     CircleAvatar(
                       radius: 40.0,
