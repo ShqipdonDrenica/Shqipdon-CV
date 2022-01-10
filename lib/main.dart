@@ -14,8 +14,9 @@ class MyApp extends StatelessWidget {
           ),
         ),
         body: InteractiveViewer(
+          columns: initHeader(),
+          rows: initRows(),
           child: Container(
-            rows: initRows(),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
