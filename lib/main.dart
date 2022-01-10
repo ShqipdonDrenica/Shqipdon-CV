@@ -76,16 +76,22 @@ class MyApp extends StatelessWidget {
                               children: [
                                 Text(
                                   'Sex ',
+                                  overflow: TextOverflow.ellipsis,
                                   style: TextStyle(color: Colors.blue),
                                 ),
                                 Text('Male  '),
                                 Text(
                                   '|Date of birth ',
+                                  overflow: TextOverflow.ellipsis,
                                   style: TextStyle(color: Colors.blue),
                                 ),
-                                Text('26.06.2000  '),
+                                Text(
+                                  '26.06.2000  ',
+                                  overflow: TextOverflow.ellipsis,
+                                ),
                                 Text(
                                   '|Nationality ',
+                                  overflow: TextOverflow.ellipsis,
                                   style: TextStyle(color: Colors.blue),
                                 ),
                                 Text(
